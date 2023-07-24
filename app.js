@@ -391,9 +391,9 @@ app.get('/Organico', (req, res) => {
 let Fintech = "192.168.42.184"
 let Home = "192.168.1.42";
 
-HOST = Fintech;
+HOST = Home;
 
-PORT = 3000;
+PORT = 4000;
 
 app.listen(PORT, () => {
     console.log(`YOUR SERVER RUNNING ON http://${HOST}:${PORT}/Organico`);
