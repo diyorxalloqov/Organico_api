@@ -157,8 +157,117 @@ var Organico = {
             "price": "$5.99",
             "img": "https://media.istockphoto.com/id/458716829/photo/red-bull.jpg?s=612x612&w=0&k=20&c=0CsBVsXdrA7PV1gkUF4VHBkPGh4Vtyq9uNJAMTQObBA="
         },
+    ],
+    "AllData": [
+        {
+            "title": "Coca-cola",
+            "price": "$1.99",
+            "img": "https://www.coca-colacanada.ca/content/dam/nagbrands/ca/coke/en/specialtysoda/coca-cola-de-mexico/Coca-ColadeMexico355mLBottle-productImageSmall.png"
+        },
+        {
+            "title": "Fanta",
+            "price": "$0.99",
+            "img": "https://positano.lv/wp-content/uploads/2021/11/fanta-0.5-new.png"
+        },
+        {
+            "title": "Sprite",
+            "price": "$0.55",
+            "img": "https://italiospizza.com/wp-content/uploads/2023/02/510TTRVmhzL._SX522_.jpg"
+        },
+        {
+            "title": "Flash",
+            "price": "$4.99",
+            "img": "https://img.b2b.trade/a20428cf-1da4-4e03-ac0a-da8b8ed5845a/-/smart_resize/500x500/-/quality/lightest/-/format/webp/"
+        },
+        {
+            "title": "Red Bull",
+            "price": "$5.99",
+            "img": "https://www.charlemagne-boissons.com/862-large_default/red-bull-24x25-cl.jpg"
+        },
+        {
+            "title": "Meat",
+            "price": "$5.99",
+            "img": "https://media.istockphoto.com/id/505207430/photo/fresh-raw-beef-steak.jpg?s=612x612&w=0&k=20&c=QxOege3Io4h1TNJLtGYh71rxb29p1BfFcZvCipz4WVY="
+        },
+        {
+            "title": "Sausage",
+            "price": "$7.99",
+            "img": "https://static.tnfoodie.in/thumb/msid-91071893,imgsize-69987,width-400,height-300,resizemode-4/pic.jpg"
+        },
+        {
+            "title": "Kazy",
+            "price": "$1.99",
+            "img": "https://tastethediversity.com/wp-content/uploads/2020/02/kazy-611x350.jpeg"
+        },
+        {
+            "title": "Minced meat",
+            "price": "$5.99",
+            "img": "https://ftf.odooegypt.com/web/image/product.template/4556/image"
+        },
+        {
+            "title": "Banana",
+            "price": "$4.68",
+            "img": "https://media.istockphoto.com/id/173242750/photo/banana-bunch.jpg?s=612x612&w=0&k=20&c=MAc8AXVz5KxwWeEmh75WwH6j_HouRczBFAhulLAtRUU="
+        },
+        {
+            "title": "Apple",
+            "price": "$9.99",
+            "img": "https://media.istockphoto.com/id/184276818/photo/red-apple.jpg?s=612x612&w=0&k=20&c=NvO-bLsG0DJ_7Ii8SSVoKLurzjmV0Qi4eGfn6nW3l5w="
+        },
 
+        {
+            "title": "Orange",
+            "price": "$5.99",
+            "img": "https://media.istockphoto.com/id/185284489/photo/orange.jpg?s=612x612&w=0&k=20&c=m4EXknC74i2aYWCbjxbzZ6EtRaJkdSJNtekh4m1PspE="
+        },
+        {
+            "title": "Staberry",
+            "price": "$7.99",
+            "img": "https://media.istockphoto.com/id/1157946861/photo/red-berry-strawberry-isolated.jpg?s=612x612&w=0&k=20&c=HyxZMbI_e-vDJbrzZkTz5zWCAo1mBEzWbvVlyigbi-E="
+        },
+        {
+            "title": "Cherry",
+            "price": "$2.99",
+            "img": "https://static.libertyprim.com/files/familles/cerise-large.jpg?1569271737"
+        },
+        {
+            "title": "Watermelon",
+            "price": "$1.99",
+            "img": "https://thumbs.dreamstime.com/b/big-watermelon-slice-white-background-as-package-design-element-44517200.jpg"
+        },
+        {
+            "title": "Paprika",
+            "price": "$4.99",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRKQBNjaSmauI_b2XjJAtTqyLGHUJAlhh7sEFAZj7w04QvkXLFPbObKSaaz3O3IcbU0Ew&usqp=CAU"
+        },
+        {
+            "title": "Broccoli",
+            "price": "$4.99",
+            "img": "https://images.cookforyourlife.org/wp-content/uploads/2018/08/shutterstock_294838064-min.jpg"
+        },
+        {
+            "title": "Lettuce",
+            "price": "$3.40",
+            "img": "https://cdn.britannica.com/77/170677-050-F7333D51/lettuce.jpg"
+        },
+        {
+            "title": "Potato",
+            "price": "$4.21",
+            "img": "https://media.istockphoto.com/id/157430678/photo/three-potatoes.jpg?s=612x612&w=0&k=20&c=qkMoEgcj8ZvYbzDYEJEhbQ57v-nmkHS7e88q8dv7TSA="
+        },
+        {
+            "title": "Carrot",
+            "price": "$4.99",
+            "img": "https://seed2plant.in/cdn/shop/products/carrotseeds.jpg?v=1604032858"
+        },
+        {
+            "title": "Red onion",
+            "price": "$3.30",
+            "img": "https://produits.bienmanger.com/36700-0w0h0_Organic_Red_Onion_From_Italy.jpg"
+        },
+        
     ]
+
 
 
 }
@@ -282,7 +391,7 @@ app.get('/Organico', (req, res) => {
 let Fintech = "192.168.42.184"
 let Home = "192.168.1.42";
 
-HOST = Home;
+HOST = Fintech;
 
 PORT = 3000;
 
